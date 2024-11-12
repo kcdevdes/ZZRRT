@@ -1,7 +1,4 @@
 import { Flex } from '@chakra-ui/react';
-
-import { CTASection } from './components/cta-section';
-import { SomeImage } from './components/some-image';
 import { SomeText } from './components/some-text';
 
 export const Home = () => {
@@ -16,8 +13,8 @@ export const Home = () => {
       w="full"
     >
       <SomeText />
-      <SomeImage />
-      <CTASection />
+      {/*<SomeImage />*/}
+      {/*<CTASection />*/}
     </Flex>
   );
 };
