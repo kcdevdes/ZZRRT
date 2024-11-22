@@ -1,5 +1,5 @@
 import { config as localConfig } from './config.local';
-import { config as devConfig } from './config.dev';
+import { config as devConfig } from './config.prod';
 // import { config as prodConfig } from './config.prod';
 
 const getConfig = () => {
